@@ -1,0 +1,141 @@
+/* Banner Section Start */
+#banner-slide {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/banner.jpg) no-repeat center / cover;
+  padding: 160px 0;
+  align-items: center;
+  position: relative;
+}
+
+.banner-text {
+  margin-top: 165px;
+  text-align: center;
+}
+
+.banner-text h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  color: #e23e38;
+  margin: 15px 0 20px 0;
+}
+
+.banner-text p {
+  color: #e4dcdc;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.banner-btn {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.banner-btn a {
+  padding: 10px 20px;
+  border: 1px solid #f1f1f1;
+  color: #ffffff;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  transition: 0.6s;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-btn a::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #e23e38;
+  transition: 0.6s;
+  z-index: -1;
+}
+
+.banner-btn a:hover::after {
+  width: 100%;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  cursor: pointer;
+  z-index: 1;
+  font-size: 0;
+}
+
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  color: #e23e38;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  cursor: pointer;
+  z-index: 1;
+  font-size: 0;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.slick-dots li button {
+  font-size: 0px;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #e23e38;
+  border: none;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.slick-dots li button::before {
+  font-size: 0;
+}
+
+.slick-dots .slick-active button {
+  height: 22px;
+  width: 22px;
+  background-color: #f33a34;
+}
+
+/* Banner Section End */
