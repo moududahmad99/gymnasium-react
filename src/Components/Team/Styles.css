@@ -1,0 +1,124 @@
+/* Team Section Start */
+.team-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 30px;
+  margin: 70px 0;
+}
+
+.team-title {
+  text-align: center;
+  color: #353535;
+  margin: 110px 0 60px;
+}
+
+.card {
+  width: 25%;
+  transition: 0.6s;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-overlay {
+  position: absolute;
+  width: 85%;
+  height: 80%;
+  top: 3.5%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  background-color: #e08d8aa8;
+  opacity: 0;
+  border: 5px solid #fff;
+  transition: 0.5s;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+}
+
+.card:hover .card-overlay {
+  height: 94%;
+  opacity: 1;
+  transform: scaleX(1.1);
+}
+
+.card-icon {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.card-icon a i {
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  text-align: center;
+  border: 1px solid #ffffff;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  padding: 9px 5px 4px 5px;
+}
+
+.card-icon a i:hover {
+  background-color: #ffffff;
+  color: #1da1f2;
+}
+
+.hidden-text {
+  text-align: center;
+  transition: 0.6s;
+  border: 1px solid #77777781;
+  border-top: none;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+
+.card:hover .hidden-text {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.hidden-text h3 {
+  font-size: 18px;
+  padding: 20px 0 10px 0;
+}
+
+.hidden-text p {
+  font-size: 12px;
+  line-height: 23px;
+  margin: 8px 0 25px 0;
+  padding: 0 50px;
+}
+/* Team Section End */
