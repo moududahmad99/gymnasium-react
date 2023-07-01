@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar/Index'
 import Banner from '../../Components/Banner/Index'
 import About from '../../Components/About/Index'
+import Gallery from '../../Components/Gallery/Index'
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <Banner />
             <About />
+            <Gallery />
         </React.Fragment>
     )
 }
