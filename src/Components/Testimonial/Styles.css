@@ -1,0 +1,49 @@
+/* Testimonial Section Start */
+.testimonial {
+  margin: 40px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)),
+    url(../../images/testimonial-background.jpg) no-repeat center / cover;
+}
+
+.testimonial-title {
+  text-align: center;
+  margin-top: 120px;
+  color: #353535;
+}
+
+.testimonial-main {
+  display: flex;
+  gap: 34px;
+}
+
+.testimonial-inner {
+  width: 50%;
+  margin: 35px 0;
+}
+
+.testimonial-part {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial-profile {
+  color: #ffffff;
+}
+
+.testimonial-profile a {
+  color: #e23e38;
+}
+
+.testimonial-profile h4 {
+  font-family: "Montserrat";
+  margin: 6px 0;
+}
+
+.testimonial-desc p {
+  color: #c4bdbd;
+  padding: 10px 0;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+  word-spacing: 1px;
+}
+/* Testimonial Section End */
