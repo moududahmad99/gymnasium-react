@@ -6,6 +6,7 @@ import Gallery from '../../Components/Gallery/Index'
 import Team from '../../Components/Team/Index'
 import Testimonial from '../../Components/Testimonial/Index'
 import Membership from '../../Components/Membership/Index'
+import Countdown from '../../Components/Countdown/Index'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Team />
             <Testimonial />
             <Membership />
+            <Countdown />
         </React.Fragment>
     )
 }

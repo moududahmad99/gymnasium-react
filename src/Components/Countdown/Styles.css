@@ -1,0 +1,29 @@
+/* Countdown Section Start */
+.countdown {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../../images/testimonial-background.jpg) no-repeat center / cover;
+  padding: 50px 0;
+  margin-bottom: 80px;
+}
+
+.countdown-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown-inner {
+  text-align: center;
+  color: #ffffff;
+}
+
+.counter {
+  font-size: 20px;
+}
+
+.countdown-inner p {
+  color: #f1f1f1c9;
+  letter-spacing: 0.6px;
+  margin: 7px 0;
+}
+
+/* Countdown Section End */
