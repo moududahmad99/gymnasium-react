@@ -9,6 +9,7 @@ import Membership from '../../Components/Membership/Index';
 import Countdown from '../../Components/Countdown/Index';
 import Classes from '../../Components/Classes/Index';
 import Brand from '../../Components/Brand/Index';
+import Footer from '../../Components/Footer/Index';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Countdown />
             <Classes />
             <Brand />
+            <Footer />
         </React.Fragment>
     )
 }
