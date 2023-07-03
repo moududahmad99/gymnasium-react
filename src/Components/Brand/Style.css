@@ -1,0 +1,21 @@
+/* Brand Section Start */
+.classes-brand {
+  margin: 550px 0 40px 0;
+}
+
+.classes-brand-inner {
+    outline: none;
+}
+
+.classes-brand img {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.classes-brand img:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.53);
+}
+/* Brand Section End */

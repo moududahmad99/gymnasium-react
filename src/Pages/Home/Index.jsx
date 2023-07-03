@@ -8,6 +8,7 @@ import Testimonial from '../../Components/Testimonial/Index';
 import Membership from '../../Components/Membership/Index';
 import Countdown from '../../Components/Countdown/Index';
 import Classes from '../../Components/Classes/Index';
+import Brand from '../../Components/Brand/Index';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Membership />
             <Countdown />
             <Classes />
+            <Brand />
         </React.Fragment>
     )
 }
