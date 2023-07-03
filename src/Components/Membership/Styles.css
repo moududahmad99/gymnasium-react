@@ -1,0 +1,79 @@
+/* Membership Section Start */
+.membership {
+  margin: 90px 0;
+}
+
+.membership-title {
+  text-align: center;
+  margin: 50px 0;
+  color: #353535;
+}
+
+.membership-main {
+  display: flex;
+  gap: 30px;
+}
+
+.membership-inner {
+  width: 33.33%;
+  background-color: #dddddd;
+  color: #353535;
+}
+
+.membership-name {
+  transition: 0.5s;
+  text-align: center;
+}
+
+.membership-name h3 {
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+
+.membership-pricing {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)),
+    url(../../images/membership-background.jpg) no-repeat center / cover;
+  padding: 35px 0;
+}
+
+.membership-pricing h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.membership-pricing span {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.membership-provides {
+  text-align: center;
+  color: #555555;
+  padding: 30px 0;
+  background-color: #f1f1f1;
+}
+
+.membership-provides p {
+  padding: 10px 0;
+}
+
+.membership-button {
+  text-align: center;
+  padding: 30px 0;
+  color: #353535;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.membership-inner:hover .membership-name {
+  background-color: #e23e38;
+  color: #ffffff;
+}
+
+.membership-inner:hover .membership-button {
+  background-color: #e23e38;
+  color: #ffffff;
+}
+/* Membership Section End */
